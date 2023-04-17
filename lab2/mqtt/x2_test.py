@@ -3,7 +3,8 @@
 
 import paho.mqtt.client as mqtt
 
-BROKER = "localhost"
+# BROKER = "localhost"
+BROKER = "127.0.0.1"
 # BROKER = "192.168.1.11"
 # BROKER = "mqtt.lab.ii.agh.edu.pl"
 
@@ -39,7 +40,7 @@ def init():
   print("connecting to broker")
   client.connect(BROKER) #connect to broker
   client.loop_start() #start the loop
-  client.subscribe([("ala/#",0),("ola/#",0)])
+  client.subscribe([("ala/#",0),("ola/#",0),("ula/#",0)])
 
 
 ################################################################################
