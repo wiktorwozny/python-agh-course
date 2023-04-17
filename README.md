@@ -6,5 +6,6 @@ During labs I was ordered to struggle with these subjects:
 
 <ol>
   <li>basics, string operations
+  <li>mqtt connection, tkinter
 
 </ol>
